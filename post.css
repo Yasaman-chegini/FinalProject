@@ -1,0 +1,200 @@
+body{
+    direction: rtl;
+    font-family:"b Badr";
+    background:  rgba(66, 34, 2, 0.664);
+}
+*,div,p,ul{
+    padding:0px;
+    margin:0px;
+}
+a,li{
+    padding: 0px;
+    margin: 0;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    color: #cc9900;
+}
+li{
+    float: right;
+    list-style: none;
+}
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+#navbar {
+    background: rgb(66, 34, 2);
+    color: #cc9900;
+    overflow: auto;
+}
+#navbar a {
+    color: #cc9900;
+}
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: right;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.in_page {
+    background: #cc9900;
+    color: #fff33e;
+}
+#navbar ul li:hover ul{
+    display: block;
+}
+#navbar li ul li a{
+    padding: 2px 5px;
+}
+#navbar li ul{
+    display: none;
+    position: absolute;
+    background: rgb(66, 34, 2);
+}
+#navbar li ul li{
+    float: none;
+    margin: 0;
+}
+.info_style{
+    float: right;
+    background:#cc9900;
+    margin:10px 15%;
+    width: 70%;
+    height: 390px;
+    border: 2px solid rgb(66, 34, 2);
+}
+
+.information{
+    float: right;
+    margin: 15% 2%;
+    width: 30%;
+    height: 250px;
+}
+.information ul li{
+    float: none;
+    margin: 5px;
+}
+.information ul li p{
+    color: rgb(66, 34, 2);
+}
+@media(max-width: 768px) {
+    #navbar ul, #navbar ul li {
+        float: none;
+    }
+    #navbar ul li a {
+        padding: 5px;
+    }
+    #navbar .logo {
+        float: none;
+        text-align: center;
+    }
+    .info_style{
+        height: auto;
+    }
+    .information{
+        height: auto;
+        margin-right: 10%;
+    }
+}
+/* new post style */
+.title{
+    float: right;
+    margin: 20px 0 0;
+    padding: 7px;
+    width: 100%;
+    height: 50px;
+}
+.title p{
+    font-size: 25px;
+    float: right;
+    width: 45%;
+    padding: 13px 0;
+    color:  rgb(66, 34, 2);
+}
+.new_bx{
+    float: right;
+    background: #cc9900;
+    margin: 10px 1%;
+    width: 98%;
+    height: auto;
+    border: 2px solid rgb(66, 34, 2);
+}
+.new_bx label{
+    color:  rgb(66, 34, 2);
+    margin: 10px 1%;
+    display: block;
+    float: right;
+}
+.new_bx input[type=text]{
+    float: right;
+    width: 96%;
+    height: 30px;
+    margin: 5px 2%;
+}
+.new_bx textarea{
+    float: right;
+    width: 96%;
+    height: 250px;
+    margin: 5px 2%;
+}
+.new_bx input[type=submit]{
+    float: right;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 5px 2% 5px 1%;
+    color: #cc9900;
+    background: rgb(66, 34, 2);
+    font-family: "b Badr";
+    border: 2px solid #cc9900;
+}
+.link{
+    float: right;
+    background: rgb(66, 34, 2);
+    border: 2px solid #cc9900;
+    margin:5px 0;
+    padding: 8px 20px;
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+    max-width: 1100px;
+    overflow-x:auto;
+    border-spacing: 40px 10px;
+padding-bottom:4px;
+}
+
+th, td {
+    color: rgb(66, 34, 2);
+    font-size:150%;
+    padding: 8px;
+    overflow-x:auto;
+    text-align: right;
+    border-bottom: 1px solid #cc9900;
+}
+
+tr:hover {background-color:#f5f5f5;}
+caption{
+    color: rgb(66, 34, 2);
+    font-size:270%;
+    text-shadow: 2px 2px 8px #cc9900;
+    padding-top: 50px;
+}
+a:hover {
+    background-color: #cc9900;
+}

@@ -1,0 +1,94 @@
+body{
+    direction: rtl;
+    font-family:"b Badr";
+    background:white;
+}
+*,div,p{
+    padding:0px;
+    margin:0px;
+}
+a{
+    padding: 0px;
+    margin: 0;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    color: rgb(66, 34, 2);
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.info_style{
+	text-shadow: 2px 2px 8px #cc9900;
+    float: right;
+    background:#eddb42;
+    margin:10px 15%;
+    width: 70%;
+    height: 170px;
+    border: 2px solid rgb(66, 34, 2);
+}
+
+
+
+@media(max-width: 768px) {
+    .info_style{
+        height: auto;
+    }
+    .information{
+        height: auto;
+        margin-right: 10%;
+    }
+	.footerF{
+		 height: auto;
+		 padding-bottom:0%;
+	}
+}
+.link{
+    float: right;
+    background: rgb(66, 34, 2);
+    border: 2px solid #cc9900;
+    margin:5px 0;
+    padding: 8px 20px;
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+    max-width: 1100px;
+    overflow-x:auto;
+    border-spacing: 40px 10px;
+padding-bottom:4px;
+}
+
+th, td {
+    color: rgb(66, 34, 2);
+    font-size:170%;
+    padding: 8px;
+    overflow-x:auto;
+    text-align: right;
+    border-bottom: 1px solid #cc9900;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+a:hover {
+    background-color: white;
+}
+h2{
+text-align:center;	
+padding-top:3%;
+font-size:330%;
+color:  black;
+}
+p{
+	color: black;
+	text-align:center;
+	
+}
+

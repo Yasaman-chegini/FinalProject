@@ -1,0 +1,57 @@
+#q-form textarea {
+    height: 100px;
+}
+.content_P{
+    height: auto;
+}
+.content_travel {
+    float: right;
+    display: inline-block;
+    margin: 10px 2%;
+    width: 96%;
+    height: auto;
+}
+.t_pc{
+    float: none;
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+.t_pc img{
+    display: block;
+}
+.tv_title{
+    width: 100%;
+}
+.tv_content{
+    float: none;
+    margin: 1% 1%;
+    width: 98%;
+}
+/* read more mobile style */
+.readMore_pic{
+    float: right;
+    width: 98%;
+}
+.readMore__txt{
+    display: block;
+    width: 98%;
+    height: auto;
+    margin: 5px 1%;
+}
+.readMore__txt a{
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+.readMore__txt p{
+    display: block;
+    margin: 1% 1%;
+}
+.readIdea{
+    margin: 10px 2%;
+    width: 96%;
+}
+.readIdea p,label{
+    font-size: 15px;
+}
